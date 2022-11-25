@@ -20,7 +20,8 @@ def netstat_list() -> set:
 def bad_stuff():
     bad_ips = get_ips_from_ipsum() & netstat_list()
     if not len(bad_ips) == 0:
-        print(f'Bad IPs connected to you: {bad_ips}')
+        for ip in bad_ips:
+            print(f'Bad IP connected to you: {ip}')
     else:
         print(f'Network is clear of malicious IPs')
         
