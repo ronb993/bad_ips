@@ -1,5 +1,5 @@
 import ip_checker
-# menu from 
+
 menu_options = {
     1: 'Check host for connected malicious IPs',
     2: 'Option 2',
