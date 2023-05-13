@@ -7,7 +7,12 @@ def get_ips_from_ipsum() -> set:
     content = requests.get(url).content
     return set(re.findall(r'[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}', str(content)))
 
-
+"""
+add platform module (platform.system())
+Linux: Linux
+Mac: Darwin
+Windows: Windows
+"""
 def netstat_list() -> set:
     result = set()
     net_conn = subprocess.check_output("netstat -n".split(), universal_newlines=True).splitlines()
