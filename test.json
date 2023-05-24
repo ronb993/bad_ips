@@ -1,0 +1,56 @@
+[
+    {
+        "LocalAddress":  "192.168.10.10",
+        "localport":  64050,
+        "remoteaddress":  "40.83.247.108",
+        "remoteport":  443,
+        "process":  "svchost",
+        "NewProcess":  false,
+        "cmdline":  "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s WpnService"
+    },
+    {
+        "LocalAddress":  "192.168.10.10",
+        "localport":  64225,
+        "remoteaddress":  "34.120.237.76",
+        "remoteport":  443,
+        "process":  "Idle",
+        "NewProcess":  false,
+        "cmdline":  null
+    },
+    {
+        "LocalAddress":  "192.168.10.10",
+        "localport":  64226,
+        "remoteaddress":  "34.120.115.102",
+        "remoteport":  443,
+        "process":  "Idle",
+        "NewProcess":  false,
+        "cmdline":  null
+    },
+    {
+        "LocalAddress":  "192.168.10.10",
+        "localport":  64231,
+        "remoteaddress":  "172.217.2.45",
+        "remoteport":  443,
+        "process":  "Idle",
+        "NewProcess":  false,
+        "cmdline":  null
+    },
+    {
+        "LocalAddress":  "192.168.10.10",
+        "localport":  64248,
+        "remoteaddress":  "142.251.32.4",
+        "remoteport":  443,
+        "process":  "Idle",
+        "NewProcess":  false,
+        "cmdline":  null
+    },
+    {
+        "LocalAddress":  "192.168.10.10",
+        "localport":  64229,
+        "remoteaddress":  "142.250.190.100",
+        "remoteport":  443,
+        "process":  "Idle",
+        "NewProcess":  false,
+        "cmdline":  null
+    }
+]
