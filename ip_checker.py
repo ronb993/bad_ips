@@ -22,15 +22,6 @@ def netstat_list() -> set:
             result.add((net).rstrip('\n'))
     return result
 
-def powershell_file():
-    with open('test.json', 'r') as f:
-        data = f.read()
-    #obj = json.loads(data)
-    bad_ips = get_ips_from_ipsum()
-    res = set(data['remoteaddress'].values())
-
-powershell_file()
-
 def bad_stuff():
     bad_ips = get_ips_from_ipsum() & netstat_list()
     if not len(bad_ips) == 0:
